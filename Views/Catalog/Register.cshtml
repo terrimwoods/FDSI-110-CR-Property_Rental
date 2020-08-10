@@ -1,0 +1,69 @@
+@{
+    ViewData["Title"]= "Register Property";
+}
+<link rel="stylesheet" href="~/css/register.css" />
+
+<form>
+   
+    <h2>Register</h2>
+    <div class="container">
+    <div class="form-group col-md-4">
+        <label for="exampleFormControlInput1"style="color:orange;"><b>Name</b></label>
+        <input type="text" class="form-control" id="name" placeholder="name">
+    </div>
+
+    <div class="form-group col-md-2">
+        <label for="exampleFormControlSelect1" style="color:red;"><b>Rooms:</b></label>
+        <select class="form-control" type= "number" id="rooms">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        </select>
+    </div>
+
+    <div class="form-group col-md-2">
+        <label for="exampleFormControlSelect2"style="color:orange"><b>Bathrooms:</b></label>
+        <select class="form-control" id="bathroom">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        </select>
+    </div>
+
+    <div class="form-group col-md-3">
+        <label for="exampleFormControlTextarea1" style="color:red"><b>Price per Month:</b></label>
+        <input type="number" class="form-control" id="price" placeholder="price">
+    
+    </div>
+
+    <div class="form-group col-md-3">
+        <label for="exampleFormControlTextarea1" style="color: orange"><b>Square Feet:</b></label>
+        <input type="number" class="form-control" id="SqrFeet" placeholder="square feet">
+    
+    </div>
+
+    <div class="form-group col-md-6">
+        <label for="exampleFormControlTextarea1" style="color: red;"><b>Image Name:</b>></label>
+        <textarea class="form-control" id="image" rows="1"></textarea>
+    </div>
+
+    <div class="form-group col-md-6">
+        <label for="exampleFormControlTextarea1"style="color:orange;"><b>Description:</b></label>
+        <textarea class="form-control" id="description" type=" text" rows="3"></textarea>
+    </div>
+
+    <div class="form-group row">
+        <div >
+        <button type="button" id="btnSave" class="btn btn-info" style="color: red;">Register</button>
+        </div>
+    </div>
+    </div>
+</form>
+
+@section Scripts {
+    <script src="/js/register.js"></script>
+}

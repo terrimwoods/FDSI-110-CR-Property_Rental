@@ -1,0 +1,51 @@
+
+.navbar{
+    box-shadow:0 2px 10px aquamarine;
+}
+
+.item{
+    border: 1px solid teal;
+    border-radius: 4px;
+    width: 400px;
+    height: 480px;
+    display: inline-block;
+    padding: 10px;
+
+}
+.item img{
+    display: block;
+    width: 100%;
+
+}
+.item-price{
+    color: #71b100;
+    font-weight: 700;
+    font: 18px;
+}
+.rooms{
+    font-size: smaller;
+}
+.bedrooms{
+    width: 20px;
+    height: 20px;
+  
+}
+.bathroom{
+    font-size: smaller;
+}
+.bath{
+   
+    width: 20px;
+    height: 20px;
+}
+.area{
+    font-size: smaller;
+}
+.desc{
+    font-size: smaller;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: smaller;
+    justify-content: right;
+}
